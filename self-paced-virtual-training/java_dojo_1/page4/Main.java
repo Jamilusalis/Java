@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+   Scanner scanner = new Scanner(System.in);
+    
+    System.out.print("First name: ");
+    String firstName = scanner.next();
+    
+    System.out.print("Last name: ");
+    String lastName = scanner.next();
+    
+    String fullName = firstName + " " + lastName ;
+    
+    Person.name(firstName);
+    System.out.println("My name is " + fullName + ".");
+  }
+}
