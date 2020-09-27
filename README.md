@@ -1,0 +1,1 @@
+Three Days Self-Paced Virtual Training on Java (25th to 27th September 2020)
